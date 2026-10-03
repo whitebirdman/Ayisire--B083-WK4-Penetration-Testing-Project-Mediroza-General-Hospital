@@ -95,6 +95,8 @@ The discovery of `login.php`, `portal.php`, `download.php`, and `reports/` provi
 **Evidence:**
 📸 `images/M1-04-patient-directory.png`
 
+![](m3patient.png)
+
 ---
 
 ## 3. Patient Portal Authentication
@@ -121,7 +123,8 @@ The login page accepted:
 The authentication functionality was therefore selected for controlled input-validation testing.
 
 **Evidence:**
-📸 `images/M1-05-patient-login.png`
+
+![](m5patientlogin.png)
 
 ---
 
@@ -142,7 +145,8 @@ This demonstrated that user-controlled input was reaching the SQL query without 
 **Finding:** SQL Injection vulnerability identified.
 
 **Evidence:**
-📸 `images/M1-06-sql-error.png`
+
+![](m6errorsql.png)
 
 ---
 
@@ -167,7 +171,10 @@ The server also issued a new PHP session cookie.
 The `302` redirect to `portal.php` indicated that the authentication request had been accepted and an authenticated session had been established.
 
 **Evidence:**
-📸 `images/M1-07-authentication-bypass.png`
+
+![](m7psfail.png)
+
+![](m8pwpassadmin.png)
 
 > **Security note:** Session identifiers should be redacted before publishing the screenshot.
 
@@ -197,23 +204,21 @@ This confirmed successful access to the restricted patient portal.
 
 The portal contained three encrypted laboratory reports.
 
-**Evidence:**
-📸 `images/M1-08-portal-access.png`
-
----
-
 # 7. Laboratory Reports Identified
 
 The authenticated portal displayed three laboratory reports, each identified as a password-protected/encrypted PDF.
 
 The portal provided download functionality for the reports.
 
-**Evidence:**
-📸 `images/M1-09-pdf-evidence.png`
-
 > Patient names, laboratory reference numbers, medical information, and other sensitive information should be redacted before uploading this screenshot to a public repository.
 
 The actual confidential PDF files are **not included in this public repository**.
+
+
+**Evidence:**
+
+![](m9pdf.png)
+
 
 ---
 
