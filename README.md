@@ -272,6 +272,28 @@ All testing and evidence collection were conducted within the authorized Network
 Sensitive patient, employee, credential and financial information should be redacted before the report is shared publicly.
 
 
+## Skills Demonstrated
+
+- Web Application Security Testing
+- Web Reconnaissance & Information Gathering
+- SQL Injection Testing
+- Authentication & Access Control Testing
+- Authentication Bypass Analysis
+- Directory & File Discovery
+- Sensitive Information Exposure Analysis
+- Database Backup Analysis
+- PDF Security & Password Recovery
+- Password Cracking with John the Ripper
+- Hash Analysis
+- Wordlist Analysis
+- Vulnerability Identification & Risk Assessment
+- Evidence Collection & Screenshot Documentation
+- Penetration Testing Reporting
+- Security Recommendations & Remediation
+- Kali Linux & Security Tools
+- cURL, Nmap, WhatWeb & Wafw00f
+
+
 
 # Milestone 1 — Initial Access
 
@@ -830,8 +852,6 @@ The backup was dated **2019-08-27**, so the findings represent exposure of histo
 ## Conclusion
 
 The M3 investigation identified a publicly accessible historical database backup containing confidential employee and shareholder information. The required salary and shareholder data exposures were confirmed and documented with screenshots.
-
-
 
 
 ## 👤 Author
