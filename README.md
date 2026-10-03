@@ -317,7 +317,7 @@ Following the successful authentication bypass documented in Milestone 1, the au
 
 The three files were downloaded for the password-recovery exercise.
 
-📸 **Evidence:** `images/M2-01-three-pdfs.png`
+![](m2lock.png)
 
 ---
 
@@ -354,11 +354,9 @@ The password was successfully recovered:
 ```text
 123456
 ```
+![](m3p1cracked.png)
 
-📸 **Evidence:**
-
-* `images/M2-02-report1-hash.png`
-* `images/M2-03-report1-cracked.png`
+![](m2hash.png)
 
 The recovered password was then used to successfully open the encrypted PDF.
 
@@ -375,11 +373,6 @@ password
 ```
 
 The recovered password was then used to access the encrypted PDF.
-
-📸 **Evidence:**
-
-* `images/M2-04-report2-hash.png`
-* `images/M2-05-report2-cracked.png`
 
 ---
 
@@ -418,6 +411,9 @@ The successful approach used the John the Ripper password list and recovered:
 * `images/M2-06-report3-hash.png`
 * `images/M2-07-report3-wordlist-tests.png`
 * `images/M2-08-report3-jtr-success.png`
+![](m4report3error.png)
+
+![](r3password.png)
 
 ---
 
@@ -430,6 +426,12 @@ The successful approach used the John the Ripper password list and recovered:
 | Report 3 | `!@#$%^&`  | Successfully recovered |
 
 All three encrypted PDFs were successfully opened after recovering their passwords.
+
+![](r1.png)
+
+![](r2.png)
+
+![](r3.png)
 
 ---
 
@@ -445,36 +447,11 @@ This demonstrated why password-recovery exercises may require different tools an
 
 ---
 
-## 8. Evidence
-
-The following screenshots document the Milestone 2 process:
-
-```text
-images/
-├── M2-01-three-pdfs.png
-├── M2-02-report1-hash.png
-├── M2-03-report1-cracked.png
-├── M2-04-report2-hash.png
-├── M2-05-report2-cracked.png
-├── M2-06-report3-hash.png
-├── M2-07-report3-wordlist-tests.png
-└── M2-08-report3-jtr-success.png
-```
-
-> **Privacy:** The actual PDF files and confidential medical information are not included in the public repository. Screenshots should be redacted before publication.
-
----
-
 ## Milestone 2 Conclusion
 
 All three encrypted laboratory-report PDFs were successfully processed and their passwords recovered.
 
 Reports 1 and 2 were recovered using the Network Walks hashing and password-cracking workflow. Report 3 required additional wordlist testing before John the Ripper successfully recovered its password.
-
-This completed the Milestone 2 requirement:
-
-> **Recovered contents of all three files with proof of successful access.**
-
 
 # M3 — Critical Data Exposure
 
@@ -579,4 +556,15 @@ The backup was dated **2019-08-27**, so the findings represent exposure of histo
 
 The M3 investigation identified a publicly accessible historical database backup containing confidential employee and shareholder information. The required salary and shareholder data exposures were confirmed and documented with screenshots.
 
-**Skills:** Web reconnaissance • Information disclosure • Database analysis • Sensitive data identification • Evidence collection • Security reporting
+
+
+
+## 👤 Author
+
+Ayisire Israel
+
+Cybersecurity Intern 
+
+LinkedIn: https://www.linkedin.com/in/ayisire/
+
+The End
