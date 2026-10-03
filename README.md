@@ -495,7 +495,11 @@ Investigation of this legacy directory revealed an exposed database backup:
 ```text
 /old/mediroza_db_backup_2019.sql
 ```
+![](m3robot.png)
 
+![](m3old.png)
+
+![](m3staff.png)
 The file identified itself as an internal Mediroza HR database backup containing confidential staff and shareholder records.
 
 ## 2. Critical Findings
@@ -518,6 +522,7 @@ date_joined
 The `monthly_salary_zar` field exposed salary information for hospital employees.
 
 **Evidence:** `images/M3-01-employee-salaries.png`
+![](m3shares.png)
 
 ### Shareholder Information Exposure
 
@@ -532,7 +537,7 @@ share_class
 
 This exposed historical shareholder identities and ownership information.
 
-**Evidence:** `images/M3-02-shareholders.png`
+![](m3sharerealshare.png)
 
 > Sensitive names, contact information, National IDs, salaries, and ownership values have been redacted from the public repository.
 
