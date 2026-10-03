@@ -204,6 +204,11 @@ This confirmed successful access to the restricted patient portal.
 
 The portal contained three encrypted laboratory reports.
 
+![](m10sql.png)
+
+
+![](m11sql1.png)
+
 # 7. Laboratory Reports Identified
 
 The authenticated portal displayed three laboratory reports, each identified as a password-protected/encrypted PDF.
@@ -218,7 +223,6 @@ The actual confidential PDF files are **not included in this public repository**
 **Evidence:**
 
 ![](m9pdf.png)
-
 
 ---
 
