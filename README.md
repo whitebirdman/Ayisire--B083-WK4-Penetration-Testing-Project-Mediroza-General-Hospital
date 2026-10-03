@@ -204,10 +204,9 @@ This confirmed successful access to the restricted patient portal.
 
 The portal contained three encrypted laboratory reports.
 
-![](m10sql.png)
+![](m10sql1.png)
 
-
-![](m11sql1.png)
+![](m11sql11.png)
 
 # 7. Laboratory Reports Identified
 
